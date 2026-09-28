@@ -79,6 +79,7 @@ test = [
 ]
 dev = [
     { include-group = "test" },
+    "ipykernel>=7.3.0",
     "jupyterlab>=4.4.0",
     "packaging>=24.2",
     "pre-commit>=4.2.0",
